@@ -68,7 +68,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
   curl_close($ch);
 
   $response = json_decode($result);
-//    var_dump($response->choices[0]->message->content);
   header("Content-Type: application/json");
   echo json_encode(['response' => $response]);
 }
