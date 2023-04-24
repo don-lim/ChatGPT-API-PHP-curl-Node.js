@@ -1,4 +1,4 @@
-# chatgpt-API-curl
+# Using ChatGPT API with PHP/curl and Node.js
 A very simple template to use ChatGPT API with curl method for PHP and Node.js
 
 - uses 'role' and 'content' instead of 'prompt' for gpt-3.5-turbo or above
