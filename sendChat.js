@@ -35,12 +35,6 @@ if (req.method === 'POST') {
         return;
     }
 
-    const data = {
-        'temperature': temperature,
-        'n': n,
-        'prompt': messages
-    };
-
     const postData = JSON.stringify({
         "model": "gpt-3.5-turbo",
         "messages": messages,
